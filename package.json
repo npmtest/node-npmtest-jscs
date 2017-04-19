@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [jscs (v3.0.7)](http://jscs.info) [![npm package](https://img.shields.io/npm/v/npmtest-jscs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jscs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jscs.svg)](https://travis-ci.org/npmtest/node-npmtest-jscs)",
+    "description": "#### test coverage for  [jscs (v3.0.7)](http://jscs.info)  [![npm package](https://img.shields.io/npm/v/npmtest-jscs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jscs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jscs.svg)](https://travis-ci.org/npmtest/node-npmtest-jscs)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "jscs": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "0.0.3"
 }
